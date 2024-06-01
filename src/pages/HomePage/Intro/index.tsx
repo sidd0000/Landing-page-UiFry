@@ -24,7 +24,7 @@ const Intro = () => {
             <div className={styles.watch}>
               <Image className={styles.video} src={Video} alt="IntroVideoWatch"/>
               <button className={styles.button}>
-                <Link href="https://www.youtube.com/watch?v=OS8taasZl8k&list=RDOS8taasZl8k&start_radio=1">
+                <Link href="https://www.youtube.com/watch?v=FT3ODSg1GFE">
                   <a target="_blank">Watch Video</a>
                 </Link>
               </button>

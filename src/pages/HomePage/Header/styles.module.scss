@@ -1,25 +1,59 @@
-//@import "../../Core/styles/mixins.scss";
-//@import "../../../Common/styles/mixins.scss";
 @import "Common/styles/index.scss";
 
-
-
 .container {
-  
   @include flex(center);
   @include forContainer();
 
-
   @media screen and (max-width: 400px) {
-    display     : none;
+    display: none;
   }
 
   .logo {
-    width       : 117px;
-    height      : 35px;
-  };
-  .button {
-    padding-bottom  : 100px ;
-  };  
-};
+    width: 117px;
+    height: 35px;
+  }
 
+  .button {
+    padding-bottom: 90px;
+  }
+}
+
+.container span {
+  font-weight: normal;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  transition: transform 0.3s ease-in-out; // Add transition for scaling
+}
+
+.container span:hover {
+  transform: scale(1.1); // Enlarge the text on hover
+}
+
+.container span::before,
+.container span::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  width: 50%; // Make the underline cover only half of the button width
+  height: 2px;
+  background-color: $color-red;
+  transition: transform 0.3s ease-in-out;
+  transform: scaleX(0);
+}
+
+.container span::before {
+  left: 0;
+  transform-origin: right;
+}
+
+.container span::after {
+  right: 0;
+  transform-origin: left;
+}
+
+.container span:hover::before,
+.container span:hover::after {
+  transform: scaleX(1);
+}

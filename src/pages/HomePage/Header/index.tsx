@@ -8,8 +8,11 @@ import Logo from "../../../Common/assets/imgs/headerlogo.svg";
 const Header = () => {
   return (
     <header className={styles.container}>
+    <div>
+      
+    </div>
       <div className= {styles.logo}>
-      <Image 
+      <Image className="logo"
           src={Logo}
           width={117}
           height={35}

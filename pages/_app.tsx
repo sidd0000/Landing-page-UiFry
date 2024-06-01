@@ -1,12 +1,12 @@
 import '../styles/globals.scss';
-import '../../uifry/src/Common/styles/main.scss';
+// import '../../uifry/src/Common/styles/main.scss';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
-    // <Component{...pageProps} />
     <>
+    {/* <Component{...pageProps} /> */}
       <Head>
         <title>Uifry - Landing Page</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />

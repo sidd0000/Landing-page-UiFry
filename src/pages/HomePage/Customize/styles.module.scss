@@ -57,4 +57,12 @@
   @include container-base();
   flex-direction     : row;
 };
+// @media screen and (min-width: 768px) {
+//   .container {
+//     flex-direction: column; /* Adjust to column layout on larger screens */
+//   }
 
+//   .content {
+//     width: 100% !important; /* Make content take full width */
+//   }
+// }

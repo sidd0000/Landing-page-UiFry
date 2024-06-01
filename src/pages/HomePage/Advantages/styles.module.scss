@@ -63,3 +63,22 @@
         width           : 90%
       }
   };
+  @media screen and (min-width: 768px) {
+    .container {
+      flex-direction: row; /* Revert to original row layout */
+    }
+
+    .left {
+      width: 50%; /* Keep left column at 50% width */
+    }
+
+    .right {
+      width: 50%; /* Keep right column at 50% width */
+      margin-top: 0; /* Remove top margin */
+      text-align: left; /* Align text to the left */
+    }
+
+    .phone {
+      width: 90%; /* Adjust phone width */
+    }
+  }
