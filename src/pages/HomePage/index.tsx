@@ -1,6 +1,6 @@
-// const HomePage: React.FC = () => {
-//   // return <div>Home page </div>
-// };
+ const HomePage: React.FC = () => {
+    return <div> </div>
+ };
 
 
-// export default HomePage;
+ export default HomePage;
