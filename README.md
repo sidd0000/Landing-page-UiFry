@@ -1,27 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Next.js App
 
-## Getting Started
+## Setup
 
-First, run the development server:
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Design
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The design closely follows the provided Figma design. 
+Figma Link: [Figma Link](https://www.figma.com/community/file/1145991068621514311)
+Figma Dev Mode Link: link[](https://www.figma.com/community/file/1145991068621514311/app-landing-page-finance-bank-money)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Libraries Used
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- styled-components
+- Next.js
+- typescript
+- scss
+- css
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Deployment
 
-
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The project is deployed on Vercel: [Live Demo](https://your-vercel-link.com)
