@@ -1,6 +1,6 @@
 import React, { HTMLProps } from "react";
 import styles from "./styles.module.scss";
-
+ 
 export type ButtonStyle = "primary" | "default";
 
 type ButtonProps= HTMLProps<HTMLButtonElement> & {
