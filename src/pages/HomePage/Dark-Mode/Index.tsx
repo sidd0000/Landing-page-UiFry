@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from './styles.module.css';
-import Header from '../Header';
+
 const DarkModeToggle: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false);
 
